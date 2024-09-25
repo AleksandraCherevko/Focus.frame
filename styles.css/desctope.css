@@ -1,0 +1,16 @@
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1240px;
+  }
+
+  .header > .container {
+    max-width: 1240px;
+    width: 100%;
+  }
+
+  .mobile-version-of-header-navigation {
+    display: none;
+  }
+
+  
+}
