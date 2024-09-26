@@ -11,6 +11,90 @@
   .mobile-version-of-header-navigation {
     display: none;
   }
+  .header-link {
+    margin-right: 270.88px;
+  }
+  .header-list {
+    display: flex;
+    font-size: 14px;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: uppercase;
+    gap: 40px;
+  }
+  .header-item:hover,
+  .header-item:focus {
+    color: var(--accent-color);
+  }
+  .header-btn {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: var(--text-color);
+    border-radius: 5px;
+    width: 238px;
+    border: none;
+  }
 
-  
+  .header-btn:hover,
+  .header-btn:focus {
+    color: var(--accent-color);
+    background-color: var(--btn-color);
+  }
+  .bordered-section {
+    margin-right: 20px;
+  }
+
+  /* HERO */
+
+  .hero > .container {
+    max-width: 1080px;
+    width: 100%;
+  }
+
+  .hero {
+    padding-top: 80px;
+    padding-bottom: 150px;
+  }
+
+  .hero-border {
+    padding-top: 80px;
+
+    display: flex;
+  }
+
+  .hero-title {
+    width: 563px;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+    text-align: left;
+  }
+
+  .title-accent {
+    font-size: 64px;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+    text-align: left;
+  }
+  .hero-after-title {
+    width: 418px;
+    margin-bottom: 136px;
+  }
+
+  .main-hero-img {
+    width: 397px;
+    height: 520px;
+  }
+
+  .hero-desctope {
+    display: flex;
+    flex-direction: column;
+  }
 }
