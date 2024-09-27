@@ -1,10 +1,10 @@
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1240px;
+    width: 1080px;
   }
 
   .header > .container {
-    max-width: 1240px;
+    max-width: 1080px;
     width: 100%;
   }
 
@@ -96,5 +96,40 @@
   .hero-desctope {
     display: flex;
     flex-direction: column;
+  }
+
+  /* ABOUT US */
+  .about-us > .container {
+    max-width: 1080px;
+    width: 100%;
+  }
+
+  .about-us-title {
+    font-weight: 500;
+  }
+
+  .about-us-img {
+    margin-right: 40px;
+    width: 488px;
+    height: 260px;
+    margin-bottom: 0;
+  }
+
+  .about-us-first-text,
+  .about-us-second-text {
+    width: 255px;
+  }
+
+  .about-us-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  .about-us-text-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 20px;
   }
 }

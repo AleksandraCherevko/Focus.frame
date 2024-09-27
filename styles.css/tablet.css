@@ -119,4 +119,47 @@
   .hero-img-wrap {
     justify-content: flex-end;
   }
+
+  /* ANIMATION */
+  /* .animation > .container {
+    max-width: 337px;
+    width: 100%;
+  } */
+
+  /* ABOUT US */
+  .about-us > .container {
+    max-width: 704px;
+    width: 100%;
+  }
+
+  .about-us-title {
+    font-size: 48px;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+
+  .about-us-img {
+    width: 704px;
+    height: 340px;
+    margin-bottom: 40px;
+    border-radius: 1000px;
+  }
+
+  .about-us-first-text,
+  .about-us-second-text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-align: left;
+    width: 280px;
+  }
+
+  .about-us-text-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 40px;
+  }
 }
