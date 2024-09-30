@@ -250,4 +250,42 @@
   .mentors-item {
     width: calc((100% - 279) / 4);
   }
+
+  /* SIGN UP */
+
+  .sign-up > .container {
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    gap: 60px;
+  }
+  .sign-up-img {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+  }
+
+  .sign-up {
+    display: flex;
+  }
+
+  .sign-up-wrap {
+    width: 480px;
+  }
+
+  .sign-up-big-img {
+    width: 340px;
+    height: 540px;
+    background-color: #1d1d1d;
+    border-radius: 1000px;
+  }
+  .img-container {
+    width: 180px;
+    height: 288px;
+    background-color: var(--accent-color);
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
