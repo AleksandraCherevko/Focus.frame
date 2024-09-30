@@ -6,14 +6,17 @@
   .header > .container {
     max-width: 1080px;
     width: 100%;
+    border: none;
+    display: flex;
+  }
+
+  .header {
   }
 
   .mobile-version-of-header-navigation {
     display: none;
   }
-  .header-link {
-    margin-right: 270.88px;
-  }
+
   .header-list {
     display: flex;
     font-size: 14px;
@@ -46,10 +49,22 @@
     color: var(--accent-color);
     background-color: var(--btn-color);
   }
+
   .bordered-section {
     margin-right: 20px;
+    border: 1px solid #ffffff33;
+    border-radius: 7px;
+    width: 100%;
+  }
+  .header-navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 
+  .header-link {
+    margin-right: 97px;
+  }
   /* HERO */
 
   .hero > .container {
