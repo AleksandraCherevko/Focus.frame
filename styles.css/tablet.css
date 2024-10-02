@@ -271,7 +271,6 @@
   .sign-up > .container {
     max-width: 480px;
     width: 100%;
-    display: flex;
   }
 
   .sign-up {
@@ -308,5 +307,95 @@
     font-weight: 700;
     line-height: 1.5;
     text-align: center;
+  }
+
+  /* REVIEWS */
+
+  .reviews > .container {
+    max-width: 704px;
+    width: 100%;
+  }
+
+  .reviews {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .reviews-list .reviews-item:nth-child(2) {
+    display: none;
+  }
+  .reviews-title {
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+    text-align: left;
+  }
+
+  .reviews-card-position {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-right: auto;
+    width: 100%;
+  }
+  .stars {
+    width: 116px;
+    height: 20px;
+  }
+  .review-icon {
+    margin-left: auto;
+    display: flex;
+  }
+
+  /* FOOTER */
+
+  .footer > .container {
+    max-width: 704px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+  .adress-list {
+    margin-right: 48px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-policy {
+    display: flex;
+  }
+  .footer-tablet-wrap {
+    display: flex;
+  }
+
+  .footer-input {
+    width: 150px;
+  }
+  .form-footer {
+    margin-top: 0;
+    display: flex;
+  }
+
+  .footer-list-wrap {
+    margin-top: 0;
+    margin-right: auto;
+  }
+
+  .adress-list-adress {
+    width: 152px;
+  }
+
+  .footer-btn {
+    margin-left: 8px;
+  }
+  .footer-input {
+    padding-left: 10px;
   }
 }

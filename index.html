@@ -35,19 +35,19 @@
 
             <ul class="header-list list">
               <li class="header-item">
-                <a class="header-item-link" href="">about us</a>
+                <a class="header-item-link" href="#about-us">about us</a>
               </li>
               <li class="header-item">
-                <a class="header-item-link" href="">our courses</a>
+                <a class="header-item-link" href="#our-courses">our courses</a>
               </li>
               <li class="header-item">
-                <a class="header-item-link" href="">our mentors</a>
+                <a class="header-item-link" href="#our-mentors">our mentors</a>
               </li>
               <li class="header-item">
-                <a class="header-item-link" href="">reviews</a>
+                <a class="header-item-link" href="#reviews">reviews</a>
               </li>
               <li class="header-item">
-                <a class="header-item-link" href="">contacts</a>
+                <a class="header-item-link" href="#contacts">contacts</a>
               </li>
             </ul>
           </nav>
@@ -155,7 +155,7 @@
         </div>
       </section> -->
       <!-- ABOUT US-->
-      <section class="about-us">
+      <section class="about-us" id="about-us">
         <div class="container">
           <h2 class="about-us-title">
             About <span class="about-us-title-accent">Us</span>
@@ -191,7 +191,7 @@
         </div>
       </section>
       <!-- OUR COURSES -->
-      <section class="courses">
+      <section class="courses" id="our-courses">
         <div class="container">
           <div class="courses-text-wrap">
             <h2 class="courses-title">
@@ -265,7 +265,7 @@
         </div>
       </section>
       <!-- OUR MENTORS -->
-      <section class="mentors">
+      <section class="mentors" id="our-mentors">
         <div class="container">
           <h2 class="mentors-title">
             Our <span class="mentors-title-accent">Mentors</span>
@@ -345,7 +345,7 @@
                   name="topic"
                   placeholder="Enter your email"
               /></label>
-              <label class="label" for="">
+              <label class="label">
                 <textarea
                   class="form-input form-input-message"
                   name="description"
@@ -381,29 +381,150 @@
           </div>
         </div>
       </section>
+      <!-- REVIEWS -->
+      <section class="reviews" id="reviews">
+        <div class="container">
+          <h3 class="reviews-section-title">Reviews</h3>
+          <ul class="reviews-list">
+            <li class="reviews-item">
+              <div class="reviews-item-wrap">
+                <div class="reviews-item-position">
+                  <img
+                    class="reviews-img"
+                    src="./images/review-1.jpg"
+                    alt=""
+                    width="56"
+                    height="56"
+                  />
+                  <div class="reviews-card-position">
+                    <div class="reviews-tablet-pos">
+                      <p class="reviews-name">Abraham Baker</p>
+                      <p class="reviews-prof">Student</p>
+                    </div>
+                    <div class="review-icon">
+                      <svg class="stars" width="96" height="16">
+                        <use href="./images/symbol-defs.svg#icon-stars"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <p class="reviews-section-text">
+                  I am very pleased that I decided to enroll in photography
+                  school. The teachers turned out to be very talented and
+                  experienced professionals who share their knowledge and are
+                  dedicated to their work. I was able to expand my skills and
+                  discover my own style.
+                </p>
+              </div>
+            </li>
+
+            <li class="reviews-item">
+              <div class="reviews-item-wrap">
+                <div class="reviews-item-position">
+                  <img
+                    class="reviews-img"
+                    src="./images/review-2.jpg"
+                    alt=""
+                    width="56"
+                    height="56"
+                  />
+                  <div class="reviews-card-position">
+                    <div class="reviews-tablet-pos">
+                      <p class="reviews-name">Amanda Lowery</p>
+                      <p class="reviews-prof">Student</p>
+                    </div>
+                    <div class="review-icon">
+                      <svg class="stars" width="96" height="16">
+                        <use href="./images/symbol-defs.svg#icon-stars"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <p class="reviews-section-text">
+                  The courses at the photography school exceeded all my
+                  expectations. I gained not only technical knowledge, but also
+                  inspiration and motivation to reach new heights in my
+                  creativity. Hands-on classes and workshops helped me
+                  understand different styles of photography.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-    <!-- <footer class="footer">
+    <!-- FOOTER -->
+    <footer class="footer" id="contacts">
       <div class="container">
-        <a href="./index.html" class="link header-link">
-          <svg class="header-logo" width="127" height="20">
-            <use href="./images/symbol-defs.svg#icon-logo"></use>
-          </svg>
-          <a href="tel:+38 066 543 8912">+38 066 543 8912</a>
-          <address>1678 S. Pioneer Road Salt Lake City UT 84104</address>
-        </a>
-        <ul>
-          <li><a href="">instagram</a></li>
-          <li><a href="">facebook</a></li>
-          <li><a href="">youtube</a></li>
-        </ul>
-        <ul>
-          <li><a href="">about us</a></li>
-          <li><a href="">our courses</a></li>
-          <li><a href="">our mentors</a></li>
-          <li><a href="">reviews</a></li>
-          <li><a href="">contacts</a></li>
-        </ul>
+        <div class="footer-tablet-wrap">
+          <div class="adress-list">
+            <a href="./index.html" class="link footer-link">
+              <svg class="footer-logo" width="123" height="16">
+                <use href="./images/symbol-defs.svg#icon-logo"></use>
+              </svg>
+            </a>
+
+            <a class="adress-list-tel" href="tel:+380665438912"
+              >+38 066 543 8912</a
+            >
+            <address class="adress-list-adress">
+              1678 S. Pioneer Road Salt Lake City UT 84104
+            </address>
+          </div>
+          <div class="footer-list-wrap">
+            <ul class="footer-soc-list">
+              <li class="footer-soc-item">
+                <a class="footer-soc-link" href="">instagram</a>
+              </li>
+              <li class="footer-soc-item">
+                <a class="footer-soc-link" href="">facebook</a>
+              </li>
+              <li class="footer-soc-item">
+                <a class="footer-soc-link" href="">youtube</a>
+              </li>
+            </ul>
+
+            <ul class="footer-list">
+              <li class="footer-item">
+                <a class="footer-link" href="#about-us">about us</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-link" href="#our-courses">our courses</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-link" href="#our-mentors">our mentors</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-link" href="#reviews">reviews</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-link" href="#contacts">contacts</a>
+              </li>
+            </ul>
+          </div>
+          <form class="form-footer">
+            <label for="useremail">
+              <input
+                class="footer-input"
+                type="text"
+                name="email"
+                placeholder="Enter your email"
+              />
+            </label>
+            <button class="footer-btn" type="submit">Go</button>
+          </form>
+        </div>
+        <div class="footer-policy">
+          <p class="footer-policy-text">
+            Privacy Policy <br />
+            Public Offering Agreement
+          </p>
+          <div class="footer-rights">
+            <p class="footer-rights-text">2024 Focus Frame</p>
+            <p class="footer-rights-text">&#169; All rights reserved</p>
+          </div>
+        </div>
       </div>
-    </footer> -->
+    </footer>
   </body>
 </html>

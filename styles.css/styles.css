@@ -42,7 +42,6 @@ img {
 }
 
 .container {
-  border: 2px solid red;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -230,7 +229,6 @@ img {
 .reviews-text {
   display: flex;
   flex-direction: column;
-
   column-gap: 4px;
 }
 .star-icon {
@@ -602,4 +600,234 @@ img {
 
 .sign-up-privacy-link {
   text-decoration: underline;
+}
+
+/* REVIEWS */
+
+.reviews > .container {
+  max-width: 335px;
+  width: 100%;
+}
+
+.reviews {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.reviews-list .reviews-item:nth-child(2) {
+  display: none;
+}
+
+.reviews-section-title {
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.reviews-img {
+  border-radius: 50%;
+}
+
+.stars {
+  fill: var(--accent-color);
+}
+
+.reviews-name {
+  margin-bottom: 4px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.reviews-prof {
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #ffffff80;
+}
+
+.reviews-section-text {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.reviews-item {
+  padding: 20px;
+  display: flex;
+  border: 1px solid #ffffff33;
+  border-radius: 12px;
+}
+
+.reviews-card-position {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.reviews-item-position {
+  display: flex;
+}
+
+/* FOOTER */
+
+.footer > .container {
+  max-width: 335px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  position: relative;
+  background-image: url(/images/Graphic.png);
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff33;
+}
+.adress-list {
+  display: flex;
+  flex-direction: column;
+}
+.adress-list-tel {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  text-align: left;
+}
+.adress-list-tel:hover,
+.adress-list-tel:focus {
+  color: var(--accent-color);
+}
+.adress-list-adress {
+  margin-bottom: 10px;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  text-align: left;
+}
+.adress-list-adress:hover,
+.adress-list-adress:focus {
+  color: var(--accent-color);
+}
+.footer-link {
+  margin-bottom: 18px;
+}
+
+.footer-soc-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+}
+.footer-list-wrap {
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+}
+
+.footer-soc-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  color: var(--accent-color);
+}
+.footer-link {
+  font-weight: 400;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+}
+
+.form-footer {
+  margin-top: 75px;
+}
+
+.footer-input {
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 18px;
+  width: 230px;
+}
+
+.footer-btn {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #1d1d1d;
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  border: none;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+  background-color: #1d1d1d;
+  color: var(--accent-color);
+}
+.footer-policy {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-rights {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-policy-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+  text-align: left;
+}
+
+.footer-rights-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+  text-align: left;
 }

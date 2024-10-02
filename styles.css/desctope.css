@@ -288,4 +288,84 @@
     justify-content: center;
     align-items: center;
   }
+
+  /* REVIEWS */
+
+  .reviews > .container {
+    max-width: 1080px;
+    width: 100%;
+  }
+
+  .reviews {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .reviews-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+    text-align: left;
+  }
+
+  .reviews-list {
+    display: flex;
+    gap: 20px;
+  }
+
+  .reviews-list .reviews-item:nth-child(2) {
+    display: block;
+  }
+
+  /* FOOTER */
+
+  .footer > .container {
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+  .adress-list {
+    margin-right: 140px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-policy {
+    display: flex;
+  }
+  .footer-tablet-wrap {
+    display: flex;
+  }
+
+  .footer-input {
+    width: 150px;
+  }
+  .form-footer {
+    margin-top: 0;
+    display: flex;
+  }
+
+  .footer-list-wrap {
+    margin-top: 0;
+    margin-right: auto;
+  }
+
+  .adress-list-adress {
+    width: 297px;
+  }
+
+  .footer-btn {
+    margin-left: 16px;
+  }
+  .footer-input {
+    padding-left: 10px;
+    width: 216px;
+  }
 }
