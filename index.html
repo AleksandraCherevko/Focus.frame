@@ -94,28 +94,109 @@
                   </div>
                   <ul class="hero-list">
                     <li class="hero-item">
-                      <a href="" class="hero-link"
-                        ><img
+                      <picture>
+                        <!-- desctope -->
+                        <source
+                          media="(min-width: 1080px)"
+                          srcset="
+                            ./images/girl-1.desc@1x.jpg 1x,
+                            ./images/girl-1.desc@2x.jpg 2x
+                          "
+                        />
+                        <!-- tablet -->
+                        <source
+                          media="(min-width: 768px)"
+                          srcset="
+                            ./images/girl-1.tablet@1x.jpg 1x,
+                            ./images/girl-1.tablet@2x.jpg 2x
+                          "
+                        />
+
+                        <!-- mob -->
+                        <source
+                          media="(min-width: 335px)"
+                          srcset="
+                            ./images/girl-1.mob@1x.jpg 1x,
+                            ./images/girl-1.mob@2x.jpg 2x
+                          "
+                        />
+                        <!-- img -->
+                        <img
                           class="hero-img"
-                          src="./images/1-min-desctope.jpg"
+                          src="./images/girl-1.mob@1x.jpg"
                           alt="first-user"
-                      /></a>
+                        />
+                      </picture>
                     </li>
                     <li class="hero-item">
-                      <a href="" class="hero-link"
-                        ><img
+                      <picture>
+                        <!-- desctope -->
+                        <source
+                          media="(min-width: 1280px)"
+                          srcset="
+                            ./images/girl-2.desc@1x.jpg 1x,
+                            ./images/girl-2.desc@2x.jpg 2x
+                          "
+                        />
+                        <!-- tablet -->
+                        <source
+                          media="(min-width: 768px)"
+                          srcset="
+                            ./images/girl-2.tablet@1x.jpg 1x,
+                            ./images/girl-2.tablet@2x.jpg 2x
+                          "
+                        />
+
+                        <!-- mob -->
+                        <source
+                          media="(min-width: 375px)"
+                          srcset="
+                            ./images/girl-2.mob@1x.jpg 1x,
+                            ./images/girl-2.mob@2x.jpg 2x
+                          "
+                        />
+                        <!-- img -->
+                        <img
                           class="hero-img"
-                          src="./images/2-min-desctope.jpg"
+                          src="./images/girl-2.mob@1x.jpg"
                           alt="second-user"
-                      /></a>
+                        />
+                      </picture>
                     </li>
                     <li class="hero-item">
-                      <a href="" class="hero-link"
-                        ><img
+                      <picture>
+                        <!-- desctope -->
+                        <source
+                          media="(min-width: 1280px)"
+                          srcset="
+                            ./images/boy-desc@1x.jpg 1x,
+                            ./images/boy-desc@2x.jpg 2x
+                          "
+                        />
+                        <!-- tablet -->
+                        <source
+                          media="(min-width: 768px)"
+                          srcset="
+                            ./images/boy-tablet@1x.jpg 1x,
+                            ./images/boy-tablet@2x.jpg 2x
+                          "
+                        />
+
+                        <!-- mob -->
+                        <source
+                          media="(min-width: 375px)"
+                          srcset="
+                            ./images/boy-mob@1x.jpg 1x,
+                            ./images/boy-mob@2x.jpg 2x
+                          "
+                        />
+                        <!-- img -->
+                        <img
                           class="hero-img"
-                          src="./images/3-min.desctope.jpg"
+                          src="./images/boy-mob@2x.jpg"
                           alt="third-user"
-                      /></a>
+                        />
+                      </picture>
                     </li>
                   </ul>
                 </div>
@@ -133,13 +214,40 @@
               </div>
             </div>
             <div class="hero-img-wrap">
-              <img
-                class="main-hero-img"
-                width="259"
-                height="314"
-                src="./images/hero-img.png"
-                alt=""
-              />
+              <picture>
+                <!-- desktop -->
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    ./images/hero-desctop@1x.png 1x,
+                    ./images/hero-desctop@2x.png 2x
+                  "
+                />
+                <!-- tablet -->
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/hero-tablet@1x.png 1x,
+                    ./images/hero-tablet@2x.png 2x
+                  "
+                />
+                <!-- mob -->
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/hero-mob@1x.png 1x,
+                    ./images/hero-mob@2x.png 2x
+                  "
+                />
+                <!-- fallback image -->
+                <img
+                  class="main-hero-img"
+                  width="259"
+                  height="314"
+                  src="./images/hero-mob@2x.png"
+                  alt="camera man"
+                />
+              </picture>
             </div>
           </div>
         </div>
@@ -161,10 +269,36 @@
             About <span class="about-us-title-accent">Us</span>
           </h2>
           <div class="about-us-wrap">
+            <picture>
+              <!-- desktop -->
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  ./images/camera-desctop@1x.jpg 1x,
+                  ./images/camera-desctop@2x.jpg 2x
+                "
+              />
+              <!-- tablet -->
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./images/camera-tablet@1x.jpg 1x,
+                  ./images/camera-tablet@2x.jpg 2x
+                "
+              />
+              <!-- mob -->
+              <source
+                media="(min-width: 375px)"
+                srcset="
+                  ./images/camera-mob@1x.jpg 1x,
+                  ./images/camera-mob@2x.jpg 2x
+                "
+              />
+            </picture>
             <img
               class="about-us-img"
-              src="./images/about-us.jpg"
-              alt="photography"
+              src="./images/camera-mob@2x.jpg"
+              alt="camera"
               width="335"
               height="209"
             />

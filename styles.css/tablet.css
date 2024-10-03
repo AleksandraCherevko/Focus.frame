@@ -145,9 +145,7 @@
 
   .about-us-img {
     width: 704px;
-    height: 340px;
     margin-bottom: 40px;
-    border-radius: 1000px;
   }
 
   .about-us-first-text,
@@ -323,7 +321,7 @@
   .reviews-list .reviews-item:nth-child(2) {
     display: none;
   }
-  .reviews-title {
+  .reviews-section-title {
     margin-bottom: 50px;
     font-size: 48px;
     font-weight: 500;
