@@ -73,6 +73,8 @@
   }
 
   .hero {
+    position: relative;
+    z-index: 1;
     padding-top: 80px;
     padding-bottom: 150px;
   }

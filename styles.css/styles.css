@@ -61,6 +61,8 @@ img {
   border-radius: 7px;
 }
 .header {
+  position: absolute;
+
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
@@ -130,11 +132,13 @@ img {
 }
 
 .hero {
+  position: relative;
+  z-index: 1;
+  background-image: url(/images/background-desc.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-top: 20px;
-  padding-bottom: 80px;
+  padding-top: 120px;
 }
 .hero-border {
   padding-top: 40px;
@@ -331,6 +335,10 @@ img {
   width: 100%;
 }
 
+.about-us-img:hover {
+  transform: scale(1.1);
+}
+
 .about-us-first-text,
 .about-us-second-text {
   font-size: 14px;
@@ -407,6 +415,10 @@ img {
   border: 1px solid #ffffff33;
   border-radius: 5%;
   background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+}
+
+.courses-card:hover {
+  transform: scale(1.2);
 }
 
 .courses-card-pre-title {
@@ -492,6 +504,57 @@ img {
 .mentors-img {
   margin-bottom: 16px;
   border-radius: 50%;
+}
+
+/* Блок картинки */
+.rotate-block {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Изображение */
+.change-img {
+  width: 180px; /* Убедитесь, что ширина совпадает с изображениями */
+  height: 180px;
+  position: relative;
+  perspective: 1000px; /* Углубление для 3D-эффекта */
+}
+
+/* Эффект переворота */
+.change-img:hover .front-side-img {
+  transform: rotateY(180deg);
+}
+
+.change-img:hover .back-side-img {
+  transform: rotateY(0deg); /* Возвращаем заднюю сторону на место */
+}
+
+/* Стороны изображения */
+.front-side-img,
+.back-side-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 1s; /* Время анимации */
+  backface-visibility: hidden; /* Скрываем обратную сторону */
+}
+
+.front-side-img img,
+.back-side-img img {
+  max-width: 100%;
+  max-height: 100%; /* Обеспечивает правильное масштабирование */
+  height: auto;
+}
+
+/* Задняя сторона изображения */
+.back-side-img {
+  transform: rotateY(180deg); /* Начальное положение для задней стороны */
 }
 
 /* SIGN UP
