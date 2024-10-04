@@ -362,8 +362,17 @@
   }
 
   .footer {
+    background-image: url("/images/background-tablet.png");
     padding-top: 50px;
     padding-bottom: 25px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .footer {
+      background-image: url("/images/background-tablet.png");
+    }
   }
   .adress-list {
     margin-right: 48px;
