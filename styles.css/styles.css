@@ -61,8 +61,6 @@ img {
   border-radius: 7px;
 }
 .header {
-  position: absolute;
-
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
@@ -132,9 +130,6 @@ img {
 }
 
 .hero {
-  position: relative;
-  z-index: 1;
-  background-image: url(/images/background-desc.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -757,18 +752,11 @@ img {
 
 .footer {
   position: relative;
-  background-image: url("/images/background-mob.png");
+
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .footer {
-    background-image: url("/images/background-mob.png");
-  }
-}
 .footer::before {
   content: "";
   position: absolute;

@@ -12,7 +12,7 @@
   .header {
     padding-top: 20px;
     padding-bottom: 40px;
-    position: absolute;
+
     width: 100%;
   }
 
@@ -55,11 +55,8 @@
   }
 
   .hero {
-    position: relative;
-    z-index: 1;
     padding-top: 40px;
     padding-bottom: 100px;
-    padding-top: 120px;
   }
   .hero-border {
     padding-top: 64px;
@@ -362,18 +359,10 @@
   }
 
   .footer {
-    background-image: url("/images/background-tablet.png");
     padding-top: 50px;
     padding-bottom: 25px;
   }
 
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .footer {
-      background-image: url("/images/background-tablet.png");
-    }
-  }
   .adress-list {
     margin-right: 48px;
     display: flex;
