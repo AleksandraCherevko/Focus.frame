@@ -294,14 +294,15 @@
                   ./images/camera-mob@2x.png 2x
                 "
               />
+              <img
+                class="about-us-img"
+                src="./images/camera-mob@2x.png"
+                alt="camera"
+                width="335"
+                height="209"
+              />
             </picture>
-            <img
-              class="about-us-img"
-              src="./images/camera-mob@2x.png"
-              alt="camera"
-              width="335"
-              height="209"
-            />
+
             <div class="about-us-text-wrap">
               <p class="about-us-first-text">
                 Our photography school is designed to teach you everything you
@@ -406,46 +407,151 @@
           </h2>
           <ul class="mentors-list">
             <li class="mentors-item">
-              <img
-                src="./images/mentor-1.jpg"
-                alt="Emilia"
-                class="mentors-img"
-                width="180"
-                height="180"
-              />
+              <picture>
+                <!-- desctop -->
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    ./images/emilia-desc@1x.jpg 1x,
+                    ./images/emilia-desc@2x.jpg 2x
+                  "
+                />
+                <!-- tablet -->
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/emilia-tablet@1x.jpg1x,
+                    ./images/emilia-tablet@2x.jpg   2x
+                  "
+                />
+                <!-- mob -->
+                <source
+                  media="(min-width: 375px)"
+                  srcset="
+                    ./images/emilia-mob@1x.jpg1x,
+                    ./images/emilia-mob@2x.jpg   2x
+                  "
+                />
+                <img
+                  src="./images/emilia-mob@2x.jpg"
+                  alt="Emilia"
+                  class="mentors-img"
+                  width="180"
+                  height="180"
+                />
+              </picture>
+
               <p class="mentors-name">Emilia Smith</p>
               <p class="mentors-experience">1.5 years of experience</p>
             </li>
             <li class="mentors-item">
-              <img
-                src="./images/mentor-2.jpg"
-                alt="Alex"
-                class="mentors-img"
-                width="180"
-                height="180"
-              />
+              <picture>
+                <!-- desctop -->
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    ./images/alex-desc@1x.jpg 1x,
+                    ./images/alex-desc@2x.jpg 2x
+                  "
+                />
+                <!-- tablet -->
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/alex-tablet@1x.jpg1x,
+                    ./images/alex-tablet@2x.jpg   2x
+                  "
+                />
+                <!-- mob -->
+                <source
+                  media="(min-width: 375px)"
+                  srcset="
+                    ./images/alex-mob@1x.jpg1x,
+                    ./images/alex-mob@2x.jpg   2x
+                  "
+                />
+                <img
+                  src="./images/alex-mob@2x.jpg "
+                  alt="Alex"
+                  class="mentors-img"
+                  width="180"
+                  height="180"
+                />
+              </picture>
+
               <p class="mentors-name">Alex Lebedev</p>
               <p class="mentors-experience">3.5 years of experience</p>
             </li>
             <li class="mentors-item">
-              <img
-                src="./images/mentor-3.jpg"
-                alt="Mia"
-                class="mentors-img"
-                width="180"
-                height="180"
-              />
+              <picture>
+                <!-- desctop -->
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    ./images/mia-desc@1x.jpg 1x,
+                    ./images/mia-desc@2x.jpg 2x
+                  "
+                />
+                <!-- tablet -->
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/mia-tablet@1x.jpg1x,
+                    ./images/mia-tablet@2x.jpg   2x
+                  "
+                />
+                <!-- mob -->
+                <source
+                  media="(min-width: 375px)"
+                  srcset="./images/mia-mob@1x.jpg1x, ./images/mia-mob@2x.jpg 2x"
+                />
+                <img
+                  src="./images/mia-mob@2x.jpg "
+                  alt="Mia"
+                  class="mentors-img"
+                  width="180"
+                  height="180"
+                />
+              </picture>
+
               <p class="mentors-name">Mia Dubrovska</p>
               <p class="mentors-experience">2.0 years of experience</p>
             </li>
             <li class="mentors-item">
-              <img
-                src="./images/mentor-4.jpg"
-                alt="Eliot"
-                class="mentors-img"
-                width="180"
-                height="180"
-              />
+              <picture>
+                <!-- desctop -->
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    ./images/eliot-desc@1x.jpg 1x,
+                    ./images/eliot-desc@2x.jpg 2x
+                  "
+                />
+                <!-- tablet -->
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/eliot-tablet@1x.jpg1x,
+                    ./images/eliot-tablet@2x.jpg   2x
+                  "
+                />
+                <!-- mob -->
+                <source
+                  media="(min-width: 375px)"
+                  srcset="
+                    ./images/eliot-mob@1x.jpg 1x,
+                    ./images/eliot-mob@2x.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/eliot-mob@2x.jpg"
+                  alt="Eliot"
+                  class="mentors-img"
+                  width="180"
+                  height="180"
+                />
+              </picture>
+
               <p class="mentors-name">Eliot Kovalev</p>
               <p class="mentors-experience">4.0 years of experience</p>
             </li>
@@ -497,21 +603,39 @@
           </div>
           <div class="sign-up-img">
             <div class="img-container">
-              <img
-                class="sign-up-small-img"
-                src="./images/sign-up-small.png"
-                alt=""
-                width="150"
-                height="142"
-              />
+              <picture class="camera-picture">
+                <!-- desctop -->
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    ./images/small-camera@1x.png 1x,
+                    ./images/small-camera@2x.png 2x
+                  " />
+                <img
+                  class="sign-up-small-img"
+                  src="./images/small-camera@2x.png"
+                  alt="small camera"
+                  width="150"
+                  height="142"
+              /></picture>
             </div>
-            <img
-              class="sign-up-big-img"
-              src="./images/sign-up-big.png"
-              alt=""
-              width="240"
-              height="296"
-            />
+            <div class="big-img-container">
+              <picture class="camera-picture">
+                <!-- desctop -->
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    ./images/big-camera@1x.png 1x,
+                    ./images/big-camera@2x.png 2x
+                  " />
+                <img
+                  class="sign-up-big-img"
+                  src="./images/big-camera@2x.png "
+                  alt="big camera"
+                  width="240"
+                  height="296"
+              /></picture>
+            </div>
           </div>
         </div>
       </section>
@@ -523,13 +647,21 @@
             <li class="reviews-item">
               <div class="reviews-item-wrap">
                 <div class="reviews-item-position">
-                  <img
-                    class="reviews-img"
-                    src="./images/review-1.jpg"
-                    alt=""
-                    width="56"
-                    height="56"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/user-1.mob@1x.jpg 1x,
+                        ./images/user-1.mob@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      class="reviews-img"
+                      src="./images/user-1.mob@2x.jpg"
+                      alt=""
+                      width="56"
+                      height="56"
+                    />
+                  </picture>
                   <div class="reviews-card-position">
                     <div class="reviews-tablet-pos">
                       <p class="reviews-name">Abraham Baker</p>
@@ -555,13 +687,21 @@
             <li class="reviews-item">
               <div class="reviews-item-wrap">
                 <div class="reviews-item-position">
-                  <img
-                    class="reviews-img"
-                    src="./images/review-2.jpg"
-                    alt=""
-                    width="56"
-                    height="56"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/user-2.mob@1x.jpg 1x,
+                        ./images/user-2.mob@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      class="reviews-img"
+                      src="./images/user-2.mob@2x.jpg"
+                      alt=""
+                      width="56"
+                      height="56"
+                    />
+                  </picture>
                   <div class="reviews-card-position">
                     <div class="reviews-tablet-pos">
                       <p class="reviews-name">Amanda Lowery</p>

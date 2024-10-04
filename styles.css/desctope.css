@@ -126,7 +126,7 @@
   .about-us-img {
     margin-right: 40px;
     width: 488px;
-    height: 260px;
+
     margin-bottom: 0;
   }
 
@@ -139,6 +139,7 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
+    align-items: center;
   }
 
   .about-us-text-wrap {
@@ -258,6 +259,7 @@
     width: 100%;
     display: flex;
     gap: 60px;
+    align-items: center;
   }
   .sign-up-img {
     display: flex;
@@ -266,26 +268,29 @@
   }
 
   .sign-up {
+    padding-top: 150px;
     display: flex;
   }
 
   .sign-up-wrap {
     width: 480px;
   }
-
-  .sign-up-big-img {
-    width: 340px;
-    height: 540px;
+  .big-img-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
     background-color: #1d1d1d;
     border-radius: 1000px;
+    width: 340px;
+    height: 540px;
   }
+
   .img-container {
     width: 180px;
     height: 288px;
     background-color: var(--accent-color);
     border-radius: 1000px;
     display: flex;
-    justify-content: center;
     align-items: center;
   }
 
