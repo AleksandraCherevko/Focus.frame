@@ -2,6 +2,7 @@ body {
   font-family: "DM Sans", sans-serif;
   color: #ffffff;
   background-color: #121212;
+
 }
 
 :root {
@@ -305,7 +306,9 @@ img {
   max-width: 335px;
   width: 100%;
 }
-
+.about-us {
+  padding-top: 100px;
+}
 .about-us-title {
   font-size: 28px;
   font-weight: 500;
